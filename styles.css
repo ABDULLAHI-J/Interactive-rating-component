@@ -142,3 +142,13 @@ h1 {
 p {
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  .card {
+    margin: 40px;
+  }
+
+  .card-thanks {
+    margin: 20px;
+  }
+}
