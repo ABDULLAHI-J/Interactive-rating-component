@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  gap: 25px;
+  padding: 15px;
+  border-radius: 20px;
+  background: linear-gradient(25deg, #171e28, #1f2630);
+}
+
+.star-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  margin-left: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  margin-top: 20px;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.4;
+}
+
+.rate-text {
+  padding: 10px;
+}
+
+.rating-star {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rate {
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.rate:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rate:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.submit-rating button {
+  width: 310px;
+  min-height: 40px;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.submit-rating button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.card-thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 20px;
+  background: linear-gradient(25deg, #171e28, #1f2630);
+}
+
+.selected-rating {
+  width: 250px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
